@@ -21,6 +21,24 @@
 		8E98307C19C6BA2100F56A74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E98305E19C6BA2100F56A74 /* UIKit.framework */; };
 		8E98308419C6BA2100F56A74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E98308219C6BA2100F56A74 /* InfoPlist.strings */; };
 		8E98308619C6BA2100F56A74 /* SwipeCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E98308519C6BA2100F56A74 /* SwipeCodeTests.m */; };
+		8E9830A219C6CE6800F56A74 /* 20110210163219.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309019C6CE6800F56A74 /* 20110210163219.png */; };
+		8E9830A319C6CE6800F56A74 /* 41DsS7mj-nL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309119C6CE6800F56A74 /* 41DsS7mj-nL.jpg */; };
+		8E9830A419C6CE6800F56A74 /* 515ZT2AqbHL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309219C6CE6800F56A74 /* 515ZT2AqbHL.jpg */; };
+		8E9830A519C6CE6800F56A74 /* barcode1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309319C6CE6800F56A74 /* barcode1.jpeg */; };
+		8E9830A619C6CE6800F56A74 /* barcode2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309419C6CE6800F56A74 /* barcode2.JPG */; };
+		8E9830A719C6CE6800F56A74 /* barcode3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309519C6CE6800F56A74 /* barcode3.jpeg */; };
+		8E9830A819C6CE6800F56A74 /* barcode4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309619C6CE6800F56A74 /* barcode4.jpeg */; };
+		8E9830A919C6CE6800F56A74 /* barcode5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309719C6CE6800F56A74 /* barcode5.jpeg */; };
+		8E9830AA19C6CE6800F56A74 /* barcode6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309819C6CE6800F56A74 /* barcode6.jpeg */; };
+		8E9830AB19C6CE6800F56A74 /* barcode7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309919C6CE6800F56A74 /* barcode7.jpeg */; };
+		8E9830AC19C6CE6800F56A74 /* images (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309A19C6CE6800F56A74 /* images (1).jpeg */; };
+		8E9830AD19C6CE6800F56A74 /* images (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309B19C6CE6800F56A74 /* images (2).jpeg */; };
+		8E9830AE19C6CE6800F56A74 /* images (3).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309C19C6CE6800F56A74 /* images (3).jpeg */; };
+		8E9830AF19C6CE6800F56A74 /* images (4).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309D19C6CE6800F56A74 /* images (4).jpeg */; };
+		8E9830B019C6CE6800F56A74 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309E19C6CE6800F56A74 /* images.jpeg */; };
+		8E9830B119C6CE6800F56A74 /* むきむき.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E98309F19C6CE6800F56A74 /* むきむき.jpeg */; };
+		8E9830B219C6CE6800F56A74 /* スター.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8E9830A019C6CE6800F56A74 /* スター.gif */; };
+		8E9830B319C6CE6800F56A74 /* ダウンロード.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9830A119C6CE6800F56A74 /* ダウンロード.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,24 @@
 		8E98308119C6BA2100F56A74 /* SwipeCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeCodeTests-Info.plist"; sourceTree = "<group>"; };
 		8E98308319C6BA2100F56A74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E98308519C6BA2100F56A74 /* SwipeCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeCodeTests.m; sourceTree = "<group>"; };
+		8E98309019C6CE6800F56A74 /* 20110210163219.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20110210163219.png; sourceTree = "<group>"; };
+		8E98309119C6CE6800F56A74 /* 41DsS7mj-nL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "41DsS7mj-nL.jpg"; sourceTree = "<group>"; };
+		8E98309219C6CE6800F56A74 /* 515ZT2AqbHL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 515ZT2AqbHL.jpg; sourceTree = "<group>"; };
+		8E98309319C6CE6800F56A74 /* barcode1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode1.jpeg; sourceTree = "<group>"; };
+		8E98309419C6CE6800F56A74 /* barcode2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode2.JPG; sourceTree = "<group>"; };
+		8E98309519C6CE6800F56A74 /* barcode3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode3.jpeg; sourceTree = "<group>"; };
+		8E98309619C6CE6800F56A74 /* barcode4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode4.jpeg; sourceTree = "<group>"; };
+		8E98309719C6CE6800F56A74 /* barcode5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode5.jpeg; sourceTree = "<group>"; };
+		8E98309819C6CE6800F56A74 /* barcode6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode6.jpeg; sourceTree = "<group>"; };
+		8E98309919C6CE6800F56A74 /* barcode7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode7.jpeg; sourceTree = "<group>"; };
+		8E98309A19C6CE6800F56A74 /* images (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (1).jpeg"; sourceTree = "<group>"; };
+		8E98309B19C6CE6800F56A74 /* images (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (2).jpeg"; sourceTree = "<group>"; };
+		8E98309C19C6CE6800F56A74 /* images (3).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (3).jpeg"; sourceTree = "<group>"; };
+		8E98309D19C6CE6800F56A74 /* images (4).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (4).jpeg"; sourceTree = "<group>"; };
+		8E98309E19C6CE6800F56A74 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		8E98309F19C6CE6800F56A74 /* むきむき.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "むきむき.jpeg"; sourceTree = "<group>"; };
+		8E9830A019C6CE6800F56A74 /* スター.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "スター.gif"; sourceTree = "<group>"; };
+		8E9830A119C6CE6800F56A74 /* ダウンロード.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ダウンロード.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +162,7 @@
 		8E98306119C6BA2100F56A74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8E98308F19C6CE6800F56A74 /* IMage */,
 				8E98306219C6BA2100F56A74 /* SwipeCode-Info.plist */,
 				8E98306319C6BA2100F56A74 /* InfoPlist.strings */,
 				8E98306619C6BA2100F56A74 /* main.m */,
@@ -150,6 +187,32 @@
 				8E98308219C6BA2100F56A74 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E98308F19C6CE6800F56A74 /* IMage */ = {
+			isa = PBXGroup;
+			children = (
+				8E98309019C6CE6800F56A74 /* 20110210163219.png */,
+				8E98309119C6CE6800F56A74 /* 41DsS7mj-nL.jpg */,
+				8E98309219C6CE6800F56A74 /* 515ZT2AqbHL.jpg */,
+				8E98309319C6CE6800F56A74 /* barcode1.jpeg */,
+				8E98309419C6CE6800F56A74 /* barcode2.JPG */,
+				8E98309519C6CE6800F56A74 /* barcode3.jpeg */,
+				8E98309619C6CE6800F56A74 /* barcode4.jpeg */,
+				8E98309719C6CE6800F56A74 /* barcode5.jpeg */,
+				8E98309819C6CE6800F56A74 /* barcode6.jpeg */,
+				8E98309919C6CE6800F56A74 /* barcode7.jpeg */,
+				8E98309A19C6CE6800F56A74 /* images (1).jpeg */,
+				8E98309B19C6CE6800F56A74 /* images (2).jpeg */,
+				8E98309C19C6CE6800F56A74 /* images (3).jpeg */,
+				8E98309D19C6CE6800F56A74 /* images (4).jpeg */,
+				8E98309E19C6CE6800F56A74 /* images.jpeg */,
+				8E98309F19C6CE6800F56A74 /* むきむき.jpeg */,
+				8E9830A019C6CE6800F56A74 /* スター.gif */,
+				8E9830A119C6CE6800F56A74 /* ダウンロード.jpeg */,
+			);
+			name = IMage;
+			path = ../../../IMage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +291,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9830A519C6CE6800F56A74 /* barcode1.jpeg in Resources */,
 				8E98307319C6BA2100F56A74 /* Images.xcassets in Resources */,
 				8E98306519C6BA2100F56A74 /* InfoPlist.strings in Resources */,
+				8E9830AD19C6CE6800F56A74 /* images (2).jpeg in Resources */,
+				8E9830A219C6CE6800F56A74 /* 20110210163219.png in Resources */,
+				8E9830AB19C6CE6800F56A74 /* barcode7.jpeg in Resources */,
 				8E98306E19C6BA2100F56A74 /* Main.storyboard in Resources */,
+				8E9830A819C6CE6800F56A74 /* barcode4.jpeg in Resources */,
+				8E9830A619C6CE6800F56A74 /* barcode2.JPG in Resources */,
+				8E9830AA19C6CE6800F56A74 /* barcode6.jpeg in Resources */,
+				8E9830A319C6CE6800F56A74 /* 41DsS7mj-nL.jpg in Resources */,
+				8E9830B019C6CE6800F56A74 /* images.jpeg in Resources */,
+				8E9830A719C6CE6800F56A74 /* barcode3.jpeg in Resources */,
+				8E9830AF19C6CE6800F56A74 /* images (4).jpeg in Resources */,
+				8E9830AC19C6CE6800F56A74 /* images (1).jpeg in Resources */,
+				8E9830B219C6CE6800F56A74 /* スター.gif in Resources */,
+				8E9830B119C6CE6800F56A74 /* むきむき.jpeg in Resources */,
+				8E9830AE19C6CE6800F56A74 /* images (3).jpeg in Resources */,
+				8E9830A919C6CE6800F56A74 /* barcode5.jpeg in Resources */,
+				8E9830A419C6CE6800F56A74 /* 515ZT2AqbHL.jpg in Resources */,
+				8E9830B319C6CE6800F56A74 /* ダウンロード.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
