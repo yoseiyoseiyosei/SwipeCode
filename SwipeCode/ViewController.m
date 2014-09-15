@@ -22,6 +22,11 @@
     UIImageView *iv = [[UIImageView alloc] initWithImage:image];
     [self.view addSubview:iv];
     
+    iv.userInteractionEnabled = YES;
+    [iv addGestureRecognizer:
+     [[UITapGestureRecognizer alloc]
+      initWithTarget:self action:@selector(handleSwipeDownGesture:)]];
+    
     
     //上方向スワイプの認識
     UISwipeGestureRecognizer *swipeUpRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self.view action:@selector(handleSwipeUpGesture:)];
@@ -44,6 +49,7 @@
     swipeRightGesture.delegate = self;
     swipeRightGesture.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:swipeRightGesture];
+    
     
 }
 
