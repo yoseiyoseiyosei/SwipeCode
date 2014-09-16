@@ -17,61 +17,35 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
     UIImage *image = [UIImage imageNamed:@"むきむき.jpeg"];
-    UIImageView *iv = [[UIImageView alloc] initWithImage:image];
-    [self.view addSubview:iv];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     
-    iv.userInteractionEnabled = YES;
-    [iv addGestureRecognizer:
-     [[UITapGestureRecognizer alloc]
-      initWithTarget:self action:@selector(handleSwipeDownGesture:)]];
+    imageView.frame = [[UIScreen mainScreen] bounds];
     
     
-    //上方向スワイプの認識
-    UISwipeGestureRecognizer *swipeUpRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self.view action:@selector(handleSwipeUpGesture:)];
-    swipeUpRecognizer.delegate = self;
-    swipeUpRecognizer.direction = UISwipeGestureRecognizerDirectionUp;
-    [self.view addGestureRecognizer:swipeUpRecognizer];
-   //下方向スワイプの認識
-    UISwipeGestureRecognizer *swipeDownRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self.view action:@selector(handleSwipeDownGesture:)];
-    swipeDownRecognizer.delegate = self;
-    swipeDownRecognizer.direction = UISwipeGestureRecognizerDirectionDown;
-    [self.view addGestureRecognizer:swipeDownRecognizer];
-
-    // 左へスワイプ
-    UISwipeGestureRecognizer* swipeLeftGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeLeftGesture:)];
-    swipeLeftGesture.delegate = self;
-    swipeLeftGesture.direction = UISwipeGestureRecognizerDirectionLeft;
-    [self.view addGestureRecognizer:swipeLeftGesture];
-    // 右へスワイプ
-    UISwipeGestureRecognizer* swipeRightGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeRightGesture:)];
-    swipeRightGesture.delegate = self;
-    swipeRightGesture.direction = UISwipeGestureRecognizerDirectionRight;
-    [self.view addGestureRecognizer:swipeRightGesture];
+    [self.view addSubview:imageView];
+    [imageView setUserInteractionEnabled:YES];
     
+    UISwipeGestureRecognizer *recognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(DownSwipeHandle:)];
+    [recognizer setNumberOfTouchesRequired:1];
+    recognizer.direction = UISwipeGestureRecognizerDirectionDown;
+    [imageView addGestureRecognizer:recognizer];
+    
+//    //上方向スワイプの認識
+//    swipeUpRecognizer.direction = UISwipeGestureRecognizerDirectionUp;
+//   //下方向スワイプの認識
+//    swipeDownRecognizer.direction = UISwipeGestureRecognizerDirectionDown;
+//    // 左へスワイプ
+//    swipeLeftGesture.direction = UISwipeGestureRecognizerDirectionLeft;
+//    // 右へスワイプ
+//    swipeRightGesture.direction = UISwipeGestureRecognizerDirectionRight;
     
 }
 
-
-- (IBAction)handleSwipeLeftGesture:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"swipe left");
+- (void)DownSwipeHandle:(UISwipeGestureRecognizer*)gestureRecognizer {
+    NSLog(@"right swipe");
 }
-
--(IBAction)handleSwipeRightGesture:(UISwipeGestureRecognizer *)sender{
-    NSLog(@"swipe right");
-}
-
--(IBAction) handleSwipeUpGesture:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"swipe up");
-}
-
--(IBAction) handleSwipeDownGesture:(UISwipeGestureRecognizer *)sender {
-    NSLog(@"swipe down");
-}
-
-
-
 
 
 - (void)didReceiveMemoryWarning
